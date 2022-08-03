@@ -31,15 +31,15 @@ function Contact () {
             <label>Telefone</label>
             <input type="tel" name="user_phone" />
             <label>Mensagem</label>
-            <textarea name="message" rows="8" wrap='hard' maxlength="800"/>
+            <textarea name="message" rows="8" wrap='hard' maxLength="800"/>
             <input type="submit" value="Enviar" />
         </form>
         <div className={styles.social}>
-          <a href='https://www.instagram.com/visintaineragency/' target='_blank'><Image src={instagram} height="25px" width="25px" /></a>
-          <a href='https://wa.me/5595984077249' target='_blank'><Image src={whatsapp} height="25px" width="25px" /></a>
-          <a href='https://www.facebook.com/VisintainerAgency' target='_blank'><Image src={facebook} height="25px" width="25px" /></a>
+          <a href='https://www.instagram.com/visintaineragency/' target='_blank' rel="noreferrer"><Image src={instagram} height="25px" width="25px" /></a>
+          <a href='https://wa.me/5595984077249' target='_blank' rel="noreferrer"><Image src={whatsapp} height="25px" width="25px" /></a>
+          <a href='https://www.facebook.com/VisintainerAgency' target='_blank' rel="noreferrer"><Image src={facebook} height="25px" width="25px" /></a>
         </div>
-        <h3 className={styles.agency}>Visintainer Agency</h3> 
+        <h3 className={styles.agency}>Visintainer Agency</h3>  
     </div>
   );
 };
