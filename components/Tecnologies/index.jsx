@@ -51,7 +51,7 @@ function Tecnologies () {
         ]
       };
     return (
-        <div className={styles.container}>
+        <div className={styles.container}> 
             <div className={styles.center}>
                 <div className={styles.title}>
                     <h2>Tecnologias Ultilizadas</h2>

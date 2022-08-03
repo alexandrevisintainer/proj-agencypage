@@ -1,5 +1,5 @@
 .container {
-    height: 90vh;
+    height: 95vh;
     width: 100%;
 }
 .center {
@@ -52,7 +52,7 @@
     padding-top: 25px;
     border-radius: 1.4rem;
     font-size: 1.6rem;
-    margin: 2rem;
+    margin: 20px 0 20px 0;
 }
 .card1 p{
     text-align: left;
@@ -78,7 +78,7 @@
     padding-top: 25px;
     border-radius: 1.4rem;
     font-size: 1.6rem;
-    margin: 2rem;
+    margin: 20px 0 20px 0;
 }
 .card2 p{
     text-align: left;
@@ -105,8 +105,8 @@
     text-align: center;
     padding-top: 25px;
     border-radius: 1.4rem;
-    font-size: 1.6rem;
-    margin: 2rem;
+    font-size: 1.6rem; 
+    margin: 20px 0 20px 0;
 }
 .card3 p{
     text-align: left;
@@ -136,17 +136,47 @@
     cursor: pointer;
 }
 @media screen and (max-width: 1365px) {
+    .container {
+        height: 100vh;
+    }
     .center {
         max-width: 90%;
     }
 }
 @media screen and (max-width: 1200px) {
     .container {
-        height: 260vh;
+        height: 250vh;
     }
     .cards {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+@media screen and (max-width: 605px) {
+    .title h3 {
+        font-size: 3rem;
+    }
+    .title h2 {
+        font-size: 4.8rem;
+    }
+}
+@media screen and (max-width: 555px) {
+    .container {
+        height: 260vh;
+    }
+    .title h3 {
+        font-size: 2.8rem;
+    }
+    .title h2 {
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .title h3 {
+        font-size: 2.4rem;
+    }
+    .title h2 {
+        font-size: 3.6rem;
     }
 }

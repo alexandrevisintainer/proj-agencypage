@@ -24,6 +24,8 @@
     font-size: 3.8rem;
     color: #2374e1;
     font-weight: 300;
+    word-break: break-word;
+    text-align: center; 
 }
 .center h1 {
     margin-bottom: 2rem;
@@ -43,4 +45,39 @@
     background-color: #2374e1;
     padding: 16px 32px;
     border-radius: 32px;
+}
+@media screen and (max-width: 1080px) {
+    .center {
+        font-size: 2.6rem;
+    }
+    .center a {
+        font-size: 1.8rem;
+    }
+    .text {
+        font-size: 3.4rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .center {
+        font-size: 2.2rem;
+    }
+    .center a {
+        font-size: 1.6rem;
+    }
+    .text {
+        font-size: 3.2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .center {
+        font-size: 2rem;
+    }
+    .center a {
+        font-size: 1.4rem;
+        padding: 12px 28px;
+    }
+    .text {
+        font-size: 3rem;
+    }
+    
 }

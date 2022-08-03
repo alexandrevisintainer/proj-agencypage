@@ -31,3 +31,9 @@
         display: none;
     }
 }
+@media screen and (max-width: 500px) { 
+    .insta,
+    .face {
+        display: none;
+    }
+}

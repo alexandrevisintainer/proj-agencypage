@@ -13,7 +13,7 @@ function Services () {
                     <h2>Serviços digitais que aumentam suas vendas!</h2>
                     <hr/>
                 </div>
-                <div className={styles.cards} >
+                <div className={styles.cards} > 
                     <div className={styles.card1}>
                         <div className={styles.image} style={{borderRadius: '10px', overflow: 'hidden'}}>
                             <Image src={image1} alt="Websites" layout='fill' objectFit='cover'/>
