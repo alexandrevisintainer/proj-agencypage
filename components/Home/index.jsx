@@ -26,7 +26,7 @@ function Hero () {
                         />
                     </div>
                     <h4>Eleve o nível da sua empresa</h4>
-                    <a href='https://wa.me/5595984077249' target='_blank'>Entre em contato</a>
+                    <a href='https://wa.me/5595984077249' target='_blank' rel="noreferrer">Entre em contato</a>
                 </div>
             </div>
         </div>

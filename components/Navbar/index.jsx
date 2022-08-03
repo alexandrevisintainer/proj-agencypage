@@ -17,9 +17,9 @@ function Navbar () {
                     <li><a href="#">Entre em contato</a></li>
                 </ul>
                 <div className={styles.social}>
-                    <a href='https://wa.me/5595984077249' target='_blank'><Image src={whatsapp} height="25px" width="25px" /></a>
-                    <a href="https://www.instagram.com/visintaineragency/" target='_blank'><Image src={instagram} height="25px" width="25px" /></a>
-                    <a href="https://www.facebook.com/VisintainerAgency" target='_blank'><Image src={facebook} height="25px" width="25px" /></a>
+                    <a href='https://wa.me/5595984077249' target='_blank' rel="noreferrer"><Image src={whatsapp} height="25px" width="25px" /></a>
+                    <a href="https://www.instagram.com/visintaineragency/" target='_blank' rel="noreferrer"><Image src={instagram} height="25px" width="25px" /></a>
+                    <a href="https://www.facebook.com/VisintainerAgency" target='_blank' rel="noreferrer"><Image src={facebook} height="25px" width="25px" /></a>
                 </div>
 
             </div>

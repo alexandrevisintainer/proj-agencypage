@@ -30,7 +30,7 @@ function Services () {
 
                     <div className={styles.card2}>
                         <div className={styles.image} style={{borderRadius: '10px', overflow: 'hidden'}}>
-                            <Image src={image2} alt="Websites" layout='fill' objectFit='cover'/>
+                            <Image src={image2} alt="Imagem empresarial" layout='fill' objectFit='cover'/>
                         </div>
                         <h3>IMAGEM EMPRESARIAL</h3>
                         <p>Desenvolvemos sua identidade visual corporativa, junto com você.</p>
@@ -51,7 +51,7 @@ function Services () {
 
                     <div className={styles.card3}>
                         <div className={styles.image} style={{borderRadius: '10px', overflow: 'hidden'}}>
-                            <Image src={image3} alt="Websites" layout='fill' objectFit='cover'/>
+                            <Image src={image3} alt="Designs" layout='fill' objectFit='cover'/>
                         </div>
                         <h3>DESIGNS</h3>
                         <p>Criamos artes para a divulgação da sua empresa ou projeto pessoal.</p>
