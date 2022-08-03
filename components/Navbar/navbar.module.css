@@ -1,0 +1,33 @@
+.container {
+    height: 10vh;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: rgba(0,0,0,0.5)
+}
+.center {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 2vh;
+    justify-content: space-between;
+}
+.social {
+    padding-top: 1.4rem;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    padding-top: 1.6rem;
+}
+.menu a {
+    padding: 0 32px 0 32px;
+}
+.social a {
+    margin-left: 32px;
+}
+@media screen and (max-width: 1090px) {
+    .menu {
+        display: none;
+    }
+}

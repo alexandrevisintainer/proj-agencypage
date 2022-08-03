@@ -1,0 +1,5 @@
+Darker #18191a
+Medium #242526
+Light #242526
+Light Blue #2374e1
+Darker Blue #263951

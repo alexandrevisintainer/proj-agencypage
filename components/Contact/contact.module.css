@@ -1,0 +1,96 @@
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    color: #fff;
+    margin-top: 64px;
+    font-size: 1.2rem;
+}
+.container h2 {
+    font-size:4rem;
+    font-family: 'Gentium Basic', serif; 
+    color: #2374e1;
+}
+.container h4 {
+    font-weight: 400;
+    color: #6c757d;
+    font-size: 2.4rem;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 32px;
+}
+.fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form input {
+    margin: 8px 0 16px 0;
+    padding: 8px;
+    outline: 0;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    font-size: 1.8rem;
+}
+.form textarea {
+    margin: 8px 0 16px 0;
+    padding: 8px;
+    outline: 0;
+    resize: none;
+    background-color: #fff;
+    font-size: 1.8rem;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+.social a {
+    margin: 0 32px 0 32px;
+}
+.agency {
+    font-size: 2.4rem;
+    font-family: 'Gentium Basic', serif;
+    color: #aaa;
+    padding: 32px;
+
+}
+.container h3 {
+    color: #6c757d;
+    font-weight: 600;
+}
+.container input,
+.container textarea {
+    font-size: 1.4rem;
+    border: 1px solid #bbb;
+}
+.form input[type="submit"] {
+    background: transparent;
+    border: 3px solid #2374e1;
+    color: #2374e1;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover {
+    background-color: #2374e1;
+    color: #fff;
+}
+.form label {
+    color: #6c757d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 500px) {
+    .container h2 {
+        font-size: 3rem;
+    }
+    .container h4 {
+        font-size: 2.2rem;
+    }
+} 
