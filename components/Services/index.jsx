@@ -10,7 +10,7 @@ function Services () {
             <div className={styles.center}>
                 <div className={styles.title} id="Services">
                     <h3>O que fazemos</h3>
-                    <h2>Serviços digitais que aumentam suas vendas!</h2>
+                    <h2>Serviços digitais que aumentam suas vendas!</h2> 
                     <hr/>
                 </div>
                 <div className={styles.cards} > 

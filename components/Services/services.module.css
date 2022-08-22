@@ -1,10 +1,14 @@
 .container {
-    height: 95vh;
+    height: 100%;
+    min-height: 95vh;
     width: 100%;
 }
 .center {
-    max-width: 80%;
-    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
 }
 .image {
     position: relative;
@@ -40,23 +44,29 @@
     border-radius: 10px;
 }
 .cards {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: center;
+    margin: auto;
 }
 .card1 {
     height: 450px;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     background-color: #242526;
     text-align: center;
     padding-top: 25px;
     border-radius: 1.4rem;
     font-size: 1.6rem;
-    margin: 20px 0 20px 0;
+    position: relative;
+    justify-content: center;
+    margin: 20px auto;
 }
 .card1 p{
     text-align: left;
     max-width: 300px;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
@@ -64,7 +74,8 @@
  ul {
     text-align: left;
     max-width: 300px;
-    margin: 0 auto;
+    width: 90%;
+    margin: auto;
     list-style: none;
 }
 .card1 h3 {
@@ -72,24 +83,32 @@
 }
 .card2 {
     height: 450px;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     background-color: #242526;
     text-align: center;
     padding-top: 25px;
     border-radius: 1.4rem;
     font-size: 1.6rem;
-    margin: 20px 0 20px 0;
+    margin: 20px auto;
 }
 .card2 p{
     text-align: left;
     max-width: 300px;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
-.card2 ul {
+.card2 .lista {
     text-align: left;
     max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
     margin: 0 auto;
+}
+.card2 ul {
     list-style: none;
 }
 .card2 h3 {
@@ -100,17 +119,19 @@
 }
 .card3 {
     height: 450px;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     background-color: #242526;
     text-align: center;
     padding-top: 25px;
     border-radius: 1.4rem;
-    font-size: 1.6rem; 
-    margin: 20px 0 20px 0;
+    font-size: 1.6rem;
+    margin: 20px auto;
 }
 .card3 p{
     text-align: left;
     max-width: 300px;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
@@ -120,13 +141,14 @@
 .card3 ul {
     text-align: left;
     max-width: 300px;
-    margin: 0 auto;
+    width: 90%;
+    margin: auto;
     list-style: none;
 }
 .button {
     border-radius: 10px;
-    width: 300px;
     padding: 16px 32px 16px 32px;
+    width: 90%;
     margin-top: 2.8rem;
     font-size: 1.8rem;
     font-weight: 700;
@@ -135,24 +157,7 @@
     color: #fff;
     cursor: pointer;
 }
-@media screen and (max-width: 1365px) {
-    .container {
-        height: 100vh;
-    }
-    .center {
-        max-width: 90%;
-    }
-}
-@media screen and (max-width: 1200px) {
-    .container {
-        height: 220vh;
-    }
-    .cards {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
+
 @media screen and (max-width: 605px) {
     .title h3 {
         font-size: 3rem;
@@ -162,9 +167,6 @@
     }
 }
 @media screen and (max-width: 555px) {
-    .container {
-        height: 210vh;
-    }
     .title h3 {
         font-size: 2.8rem;
     }
@@ -179,4 +181,23 @@
     .title h2 {
         font-size: 3.6rem;
     }
+}
+@media screen and (max-width: 370px) {
+    .image {
+        position: relative;
+        width: 250px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .card2 ul li {
+        font-size: 1.4rem;
+    }
+    .card1, 
+    .card2,
+    .card3 {
+        height: 450px;
+        width: 100%;
+        max-width: 300px;
+    }
+
 }

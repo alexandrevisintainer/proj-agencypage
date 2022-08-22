@@ -11,7 +11,7 @@ import firebase from '../../public/firebase.png'
 import photoshop from '../../public/photoshop.png'
 import vercel from '../../public/vercel.png'
 
-function Tecnologies () {
+function Tecnologies () { 
     var settings = {
         dots: true,
         infinite: true,
@@ -55,9 +55,9 @@ function Tecnologies () {
             <div className={styles.center}>
                 <div className={styles.title}>
                     <h2>Tecnologias Ultilizadas</h2>
-                    <h3>Ultilizamos as mais otimizadas tecnologias de desenvolvimento!</h3>
+                    <h3>Ultilizamos as mais otimizadas tecnologias de desenvolvimento!</h3> 
                 </div>
-                <Slider {...settings}>
+                <Slider {...settings} className={styles.slider}>
                     <div className={styles.image}>
                         <Image src={react} alt="react js" layout='fill' objectFit='cover'/>
                     </div>
