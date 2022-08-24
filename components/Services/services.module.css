@@ -190,7 +190,7 @@
     .card1, 
     .card2,
     .card3 {
-        height: 460px;
+        max-height: 465px;     
     }
 }
 @media screen and (max-width: 370px) {
