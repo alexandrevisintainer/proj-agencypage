@@ -195,12 +195,12 @@
     .card1, 
     .card2,
     .card3 {
-        height: 450px;
+        height: 460px;
         width: 100%;
         max-width: 300px;
     }
     .button {
-        margin-bottom: 1rem;
+        margin-bottom: 1rem; 
     }
 
 }
