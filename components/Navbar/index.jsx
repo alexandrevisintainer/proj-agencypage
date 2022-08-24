@@ -10,7 +10,7 @@ function Navbar () {
         <div className={styles.container}>
             <div className={styles.center}>
                 <div className={styles.logo}>
-                    <Image src={logo} height="50px" width="180px"/>
+                    <Image src={logo} alt="logo" layout='fill' objectFit='fill'/>
                 </div>               
                 <ul className={styles.menu}>
                     <li><a href="#Services">Nossos Serviços</a></li>

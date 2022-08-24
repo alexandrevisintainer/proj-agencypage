@@ -2,7 +2,7 @@
     height: 10vh;
     width: 100%;
     font-size: 1.8rem;
-    background-color: rgba(0,0,0,0.5)
+    background-color: rgba(0,0,0,0.5);
 }
 .center {
     display: flex;
@@ -10,6 +10,11 @@
     margin: 0 auto;
     padding-top: 2vh;
     justify-content: space-between;
+}
+.logo {
+    position: relative;
+    height: 50px;
+    width: 180px;
 }
 .social {
     padding-top: 1.4rem;
