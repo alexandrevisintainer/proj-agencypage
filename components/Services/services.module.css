@@ -53,6 +53,7 @@
 .card1 {
     height: 100%;
     min-height: 450px;
+    max-height: 460px;
     width: 100%;
     max-width: 350px;
     background-color: #242526;
@@ -85,6 +86,7 @@
 .card2 {
     height: 100%;
     min-height: 450px;
+    max-height: 460px;
     width: 100%;
     max-width: 350px;
     background-color: #242526;
@@ -122,6 +124,7 @@
 .card3 {
     height: 100%;
     min-height: 450px;
+    max-height: 460px;
     width: 100%;
     max-width: 350px;
     background-color: #242526;
@@ -156,7 +159,7 @@
     font-size: 1.8rem;
     font-weight: 700;
     border: none;
-    background-color: #2374e1;
+    background-color: #2374e1; 
     color: #fff;
     cursor: pointer;
 }
