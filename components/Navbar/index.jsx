@@ -18,8 +18,8 @@ function Navbar () {
                 </ul>
                 <div className={styles.social}>
                     <a href='https://wa.me/5595984077249' target='_blank' rel="noreferrer" alt="Whatsapp Image"><Image src={whatsapp} height="25px" width="25px" /></a>
-                    <a className={styles.insta} href="https://www.instagram.com/visintaineragency/" target='_blank' rel="noreferrer" alt="Instagram Image"><Image src={instagram} height="25px" width="25px" /></a>
-                    <a className={styles.face} href="https://www.facebook.com/VisintainerAgency" target='_blank' rel="noreferrer" alt="Facebook Image"><Image src={facebook} height="25px" width="25px" /></a>
+                    <a className={styles.insta} href="https://www.instagram.com/visintaineragency/" target='_blank' rel="noreferrer" ><Image src={instagram} alt="Instagram Image" height="25px" width="25px" /></a>
+                    <a className={styles.face} href="https://www.facebook.com/VisintainerAgency" target='_blank' rel="noreferrer" ><Image src={facebook} alt="Facebook Image" height="25px" width="25px" /></a>
                 </div>
 
             </div>

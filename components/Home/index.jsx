@@ -8,7 +8,7 @@ function Hero () {
             <Navbar />
             <div className={styles.container}>
                 <div className={styles.center}>
-                    <h1>Websites customizados e Imagem Empresarial</h1>
+                    <h1>Websites customizados e Imagem Empresarial</h1> 
                     <div className={styles.text}>
                         <Typewriter 
                         options={{
