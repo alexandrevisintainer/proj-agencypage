@@ -1,3 +1,9 @@
+Uma landing page responsiva Ultilizando o next.js com base no JavaScript. Ultilizando as bibliotecas typewriter-effect, react-slick e emailJs.
+
+Link: proj-agencypage.vercel.app
+
+https://replit.com/@alexandrevisin1/CurriculoChatBot#main.py
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
